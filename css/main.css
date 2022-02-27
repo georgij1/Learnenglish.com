@@ -162,6 +162,38 @@ table p{
 }
 
 @media (min-width: 320px) {
+  #add-word-btn {
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    height: 56px;
+    border-radius: 4px;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 9px;
+    margin-left: 81px;
+    margin-right: 0;
+    color: rgba(0, 0, 0, 0.7);
+    width: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+  }
+
+  h2 {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    margin: -58px 0 60px -120px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
   table {
     display: flex;
     flex-direction: column;
@@ -175,7 +207,7 @@ table p{
     margin-right: auto;
   }
   .inputs-block p {
-    margin-top: -167px;
+    margin-top: 0;
     margin-left: 0;
     text-align: center;
     margin-right: -7px;
@@ -212,9 +244,23 @@ table p{
 }
 
 @media (min-width: 375px){
+  input {
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    height: 56px;
+    border-radius: 4px;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 18px;
+    width: 150%;
+  }
+
   .inputs-block p {
-    margin-top: 107px;
-    margin-left: -128px;
+    margin-top: 16px;
+    margin-left: 0;
     text-align: center;
     margin-right: 0;
     width: max-content;
@@ -242,11 +288,11 @@ table p{
     font-family: Montserrat, serif;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 139px;
+    margin-top: 39px;
     color: rgba(0, 0, 0, 0.7);
     width: 141px;
     display: flex;
-    margin-left: -249px;
+    margin-left: 130px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -262,8 +308,7 @@ table p{
 
   .inputs-block {
     display: flex;
-    flex-direction: row;
-    /* align-items: flex-end; */
+    flex-direction: column;
     margin-bottom: 60px;
     width: 421px;
     margin-left: -124px;
