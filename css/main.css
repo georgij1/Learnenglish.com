@@ -175,17 +175,17 @@ table p{
     margin-right: auto;
   }
   .inputs-block p {
-    margin-top: 121px;
-    margin-left: -303px;
+    margin-top: -167px;
+    margin-left: 0;
     text-align: center;
     margin-right: -7px;
-    width: 868px;
+    width: 276px;
   }
   .gap{
     margin-left: 97px;
   }
   .input-item {
-    margin-right: 40px;
+    margin-right: 0;
     width: 268px;
   }
   input {
@@ -199,11 +199,27 @@ table p{
     line-height: 20px;
     color: rgba(0, 0, 0, 0.7);
     padding-left: 18px;
-    width: 145%;
+    width: 100%;
+  }
+
+  .inputs-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-left: -124px;
+    margin-top: -64px;
   }
 }
 
 @media (min-width: 375px){
+  .inputs-block p {
+    margin-top: 107px;
+    margin-left: -128px;
+    text-align: center;
+    margin-right: 0;
+    width: max-content;
+  }
+
   table p {
     width: 355px;
     display: block;
