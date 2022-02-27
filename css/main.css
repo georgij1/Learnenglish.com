@@ -328,6 +328,14 @@ table p{
 }
 
 @media (min-width: 425px){
+  .inputs-block p {
+    margin-top: -170px;
+    margin-left: 0;
+    text-align: center;
+    margin-right: 0;
+    width: max-content;
+  }
+
   #add-word-btn {
     background: #FFFFFF;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -350,6 +358,23 @@ table p{
 }
 
 @media (min-width: 768px){
+  .inputs-block {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    margin-bottom: 60px;
+    width: 752px;
+    margin-left: -124px;
+    margin-top: -64px;
+  }
+
+  .inputs-block p {
+    margin-top: 13px;
+    margin-left: 0;
+    text-align: center;
+    margin-right: 0;
+    width: max-content;
+  }
 
   table p {
     width: max-content;
@@ -367,8 +392,8 @@ table p{
     font-family: Montserrat, serif;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 52px;
-    margin-left: 2px;
+    margin-top: 11px;
+    margin-left: 243px;
     color: rgba(0, 0, 0, 0.7);
     width: 141px;
     display: flex;
@@ -394,14 +419,18 @@ table p{
     margin: -119px -119px 70px 39px;
   }
 
-  .inputs-block {
-    display: flex;
-    flex-direction: row;
-    /* align-items: flex-end; */
-    margin-bottom: 60px;
-    width: 752px;
-    margin-left: -124px;
-    margin-top: -64px;
+  input {
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    height: 56px;
+    border-radius: 4px;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 18px;
+    width: 290%;
   }
 }
 
