@@ -157,6 +157,7 @@ input {
   line-height: 25px;
   color: #FFF;
   font-weight: 700;
+  cursor: default;
 }
 
 .text_eng_word {
@@ -167,6 +168,7 @@ input {
   line-height: 25px;
   color: #FFF;
   font-weight: 700;
+  cursor: default;
 }
 
 .cards {
