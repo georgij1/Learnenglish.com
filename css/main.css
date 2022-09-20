@@ -194,6 +194,10 @@ input {
   .flex {
     display: flex;
     justify-content: flex-start;
-    gap: 150px;
+    gap: 35px;
+  }
+
+  #add-word-btn {
+    width: 526px;
   }
 }
