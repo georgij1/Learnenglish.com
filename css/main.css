@@ -164,7 +164,6 @@ input {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 100px;
 }
 
 .words_not_visible {
