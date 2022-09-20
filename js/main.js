@@ -45,6 +45,7 @@ addButton.addEventListener('click', () => {
         engWord.value = null;
         rusWord.value = null;
     }
+    window.location.reload()
 })
 
 function CreateWord(english, russian){
