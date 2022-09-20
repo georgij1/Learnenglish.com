@@ -67,10 +67,10 @@ const addEventDelete = () => {
         for (let btn of btnDelete){
             btn.addEventListener('click', e => {
                 deleteWord(e);
+                window.location.reload()
             })
         }
     }
-    window.location.reload()
 }
 
 addEventDelete()
