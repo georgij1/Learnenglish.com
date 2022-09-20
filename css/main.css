@@ -198,11 +198,17 @@ input {
 @media (min-width: 1024px){
   .flex {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 35px;
   }
 
   #add-word-btn {
     width: 526px;
+  }
+
+  #eng {
+    display: flex;
+    justify-content: center;
+    margin: auto;
   }
 }
