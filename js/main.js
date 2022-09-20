@@ -80,7 +80,7 @@ addEventDelete()
 function help_text() {
     let words_not_visible = document.querySelector('.words_not_visible');
 
-    if (cards.clientHeight < 0) {
+    if (cards.clientHeight <= 0) {
         words_not_visible.style.display = 'block'
     }
 
