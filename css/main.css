@@ -177,6 +177,11 @@ input {
   font-style: italic;
 }
 
+.btn-delete:hover {
+  background: #FFF;
+  color: black;
+}
+
 @media (min-width: 768px){
   .flex {
     display: flex;
