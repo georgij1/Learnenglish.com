@@ -164,6 +164,14 @@ input {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  height: 100px;
+}
+
+.words_not_visible {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  display: none;
 }
 
 @media (min-width: 768px){
