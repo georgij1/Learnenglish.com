@@ -46,6 +46,7 @@ addButton.addEventListener('click', () => {
         rusWord.value = null;
     }
     window.location.reload()
+    help_text()
 })
 
 function CreateWord(english, russian){
@@ -68,6 +69,7 @@ const addEventDelete = () => {
             btn.addEventListener('click', e => {
                 deleteWord(e);
                 window.location.reload()
+                help_text()
             })
         }
     }
@@ -75,13 +77,16 @@ const addEventDelete = () => {
 
 addEventDelete()
 
+function help_text() {
+    let words_not_visible = document.querySelector('.words_not_visible');
 
-let words_not_visible = document.querySelector('.words_not_visible');
+    if (cards.clientHeight < 0) {
+        words_not_visible.style.display = 'block'
+    }
 
-if (cards.clientHeight < 0) {
-    words_not_visible.style.display = 'block'
+    else {
+        words_not_visible.style.display = 'none'
+    }
 }
 
-else {
-    words_not_visible.style.display = 'none'
-}
+help_text()

@@ -170,7 +170,6 @@ input {
   text-align: center;
   font-size: 18px;
   font-style: italic;
-  display: none;
 }
 
 @media (min-width: 768px){
