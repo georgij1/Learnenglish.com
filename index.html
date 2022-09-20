@@ -14,7 +14,7 @@
 				Слово
 			</div>
 			<label for="eng">
-				<input type="text" id="eng" class="input">
+				<input type="text" id="eng" class="input" placeholder="Введите слово для добавления в словарь...">
 			</label>
 		</div>
 		<div class="gap"></div>
@@ -23,11 +23,13 @@
 				Перевод
 			</div>
 			<label for="rus">
-				<input type="text" id="rus" class="input">
+				<span class="flex">
+					<input type="text" id="rus" class="input" placeholder="Введите слово для перевода...">
+					<div class="btn-wrapper">
+						<button id="add-word-btn">Добавить слово</button>
+					</div>
+				</span>
 			</label>
-		</div>
-		<div class="btn-wrapper">
-			<button id="add-word-btn">Добавить слово</button>
 		</div>
 		<p>Чтобы удалить слово перезагрузите страницу</p>
 	</div>
