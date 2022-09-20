@@ -2,7 +2,7 @@ let engWord = document.getElementById('eng');
 let rusWord = document.getElementById('rus');
 let inputs = document.getElementsByClassName('input');
 let addButton = document.getElementById('add-word-btn');
-let table = document.getElementById('table');
+let cards = document.querySelector('.cards');
 
 let words;
 let btnDelete;
@@ -10,14 +10,16 @@ let btnDelete;
 localStorage.length < 1 ? words = [] : words = JSON.parse(localStorage.getItem('words'));
 
 const addWordTotable = index => {
-    table.innerHTML += `
-        <tr class="tr">
-            <td class="eng-word">${words[index].english}</td>
-            <td class="rus-word">${words[index].russian}</td>
-            <td>
-                <button class="btn-delete"></button>
-            </td>
-    </tr>
+    cards.innerHTML += `        
+        <div class="card_eng_word">
+            <div class="text_eng_word">Английское слово</div>
+            <div class="eng-word">${words[index].english}</div>
+        </div>
+
+        <div class="card_rus_word">
+            <div class="text_rus_word">Перевод на русский</div>
+            <div class="rus-word">${words[index].russian}</div>
+        </div>
     `
 }
 
