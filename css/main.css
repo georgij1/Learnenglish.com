@@ -24,6 +24,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 .input-item-title {
   margin-bottom: 10px;
   font-size: 18px;
@@ -220,6 +224,11 @@ input {
 
   input {
     width: 416px;
+  }
+
+  h2 {
+    text-align: left;
+    padding-left: 15px;
   }
 }
 
