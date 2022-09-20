@@ -42,41 +42,27 @@ table {
 }
 
 .btn-delete {
-  background-image: url('../img/btn_delete.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 12px;
-  height: 12px;
-  background-color: transparent;
-  border: none;
+  background: blue;
+  width: 304px;
+  height: 40px;
+  margin: 10px auto;
+  border: 2px solid blue;
+  border-radius: 10px;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .eng-word {
-  font-family: Montserrat, serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  line-height: 43px;
-  letter-spacing: 0.03em;
-  color: #000000;
-  flex: none;
-  order: 0;
-  align-self: center;
-  margin: 40px 0;
+  margin: 54px 0;
 }
 
 .rus-word {
-  font-family: Montserrat, serif;
-  font-style: normal;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 35px;
-  line-height: 43px;
-  letter-spacing: 0.03em;
-  color: #000000;
-  flex: none;
-  order: 1;
-  align-self: center;
-  margin: 40px 0;
+  margin: 54px 0;
 }
 
 a {
@@ -136,6 +122,48 @@ input {
 .inputs-block {
   display: flex;
   flex-direction: column;
+}
+
+.card_eng_word {
+  background: deepskyblue;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px blue;
+  text-align: center;
+}
+
+.card_rus_word {
+  background: deepskyblue;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px blue;
+  text-align: center;
+}
+
+.text_rus_word {
+  padding: 10px;
+  background: grey;
+  border-radius: 10px;
+  height: 30px;
+  line-height: 25px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.text_eng_word {
+  padding: 10px;
+  background: grey;
+  border-radius: 10px;
+  height: 30px;
+  line-height: 25px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media (min-width: 768px){
