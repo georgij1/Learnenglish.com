@@ -30,6 +30,10 @@ h1 {
   font-size: 18px;
 }
 
+.input-item {
+  margin: auto;
+}
+
 .translate{
   color: white;
 }
