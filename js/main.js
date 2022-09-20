@@ -3,7 +3,6 @@ let rusWord = document.getElementById('rus');
 let inputs = document.getElementsByClassName('input');
 let addButton = document.getElementById('add-word-btn');
 let cards = document.querySelector('.cards');
-
 let words;
 let btnDelete;
 
@@ -35,6 +34,7 @@ addButton.addEventListener('click', () => {
             key.classList.add('error');
         }
     }
+
     else{
         for(let key of inputs){
             key.classList.remove('error');
@@ -70,6 +70,7 @@ const addEventDelete = () => {
             })
         }
     }
+    window.location.reload()
 }
 
 addEventDelete()
