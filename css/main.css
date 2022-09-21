@@ -181,6 +181,7 @@ input {
   color: #FFF;
   font-weight: 700;
   cursor: default;
+  font-family: sans-serif;
 }
 
 .text_eng_word {
@@ -192,6 +193,7 @@ input {
   color: #FFF;
   font-weight: 700;
   cursor: default;
+  font-family: sans-serif;
 }
 
 .cards {
