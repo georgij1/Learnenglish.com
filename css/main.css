@@ -248,6 +248,11 @@ input {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .card {
+    width: 330px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 1024px){
