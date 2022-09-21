@@ -20,10 +20,8 @@ const addWordTotable = index => {
             <div class="text_rus_word">Перевод на русский</div>
             <div class="rus-word">${words[index].russian}</div>
         </div>
-    `
-
-    button.innerHTML += `
-        <button class="btn-delete">Удалить перевод и слово</button>
+        
+        <button class="btn-delete">Удалить перевод и слово</button>    
     `
 }
 
