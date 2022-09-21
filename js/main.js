@@ -10,7 +10,7 @@ let button = document.querySelector('.button')
 localStorage.length < 1 ? words = [] : words = JSON.parse(localStorage.getItem('words'));
 
 const addWordTotable = index => {
-    cards.innerHTML += `        
+    cards.innerHTML += `
         <div class="card_eng_word">
             <div class="text_eng_word">Английское слово</div>
             <div class="eng-word">${words[index].english}</div>
