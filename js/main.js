@@ -5,6 +5,7 @@ let addButton = document.getElementById('add-word-btn');
 let cards = document.querySelector('.cards');
 let words;
 let btnDelete;
+let button = document.querySelector('.button')
 
 localStorage.length < 1 ? words = [] : words = JSON.parse(localStorage.getItem('words'));
 
@@ -19,7 +20,9 @@ const addWordTotable = index => {
             <div class="text_rus_word">Перевод на русский</div>
             <div class="rus-word">${words[index].russian}</div>
         </div>
-        
+    `
+
+    button.innerHTML += `
         <button class="btn-delete">Удалить перевод и слово</button>
     `
 }
@@ -29,13 +32,13 @@ words.forEach((element, i) => {
 })
 
 addButton.addEventListener('click', () => {
-    if(engWord.value.length < 1 || rusWord.value.length < 1 || !isNaN(engWord.value)|| !isNaN(rusWord.value)){
+    if (engWord.value.length < 1 || rusWord.value.length < 1 || !isNaN(engWord.value)|| !isNaN(rusWord.value)){
         for(let key of inputs){
             key.classList.add('error');
         }
     }
 
-    else{
+    else {
         for(let key of inputs){
             key.classList.remove('error');
         }
@@ -45,6 +48,7 @@ addButton.addEventListener('click', () => {
         engWord.value = null;
         rusWord.value = null;
     }
+
     window.location.reload()
     help_text()
 })

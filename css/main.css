@@ -209,6 +209,15 @@ input {
   color: black;
 }
 
+.button {
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  margin: auto;
+}
+
 @media (min-width: 768px){
   .flex {
     display: flex;
@@ -229,6 +238,11 @@ input {
   h2 {
     text-align: left;
     padding-left: 15px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
