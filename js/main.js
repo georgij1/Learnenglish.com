@@ -11,12 +11,12 @@ localStorage.length < 1 ? words = [] : words = JSON.parse(localStorage.getItem('
 
 const addWordTotable = index => {
     cards.innerHTML += `
-        <div class="card_eng_word">
+        <div class="card_eng_word card">
             <div class="text_eng_word">Английское слово</div>
             <div class="eng-word">${words[index].english}</div>
         </div>
 
-        <div class="card_rus_word">
+        <div class="card_rus_word card">
             <div class="text_rus_word">Перевод на русский</div>
             <div class="rus-word">${words[index].russian}</div>
         </div>
