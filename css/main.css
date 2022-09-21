@@ -160,6 +160,7 @@ input {
   border-radius: 10px;
   box-shadow: 0 0 10px blue;
   text-align: center;
+  font-family: cursive;
 }
 
 .card_rus_word {
@@ -168,6 +169,7 @@ input {
   border-radius: 10px;
   box-shadow: 0 0 10px blue;
   text-align: center;
+  font-family: cursive;
 }
 
 .text_rus_word {
